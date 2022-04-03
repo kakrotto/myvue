@@ -1,5 +1,8 @@
 # myvue
 
+vue study demo
+vue3
+
 ## Project setup
 ```
 yarn install
