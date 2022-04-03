@@ -1,7 +1,14 @@
 <template>
   <div class="home">
     <img alt="Vue logo" src="../assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+<!--    <HelloWorld msg="Welcome to Your Vue.js App"/>-->
+    <nav>
+      <router-link to="/home">Home</router-link> |
+      <router-link to="/home/about">About</router-link> |
+      <router-link to="/home/admin">Admin</router-link>
+    </nav>
+    <p>------------home router-view --------</p>
+    <router-view></router-view>
   </div>
 </template>
 
