@@ -48,5 +48,12 @@ filters  : 过滤器 差值表达式中使用 {{}}
 vuecli
 vue-router
 子路由模式
+传参:
+* url 传参
+* name - params
+* name - query 
+* path - query
+* js 传参
+传参过程中，path 不可以和 params 配对使用
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).

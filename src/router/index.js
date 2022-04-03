@@ -7,6 +7,7 @@ const Home = () => import('../views/HomeView')
 const About = () => import('../views/AboutView')
 const Admin = () => import('../views/AdminView')
 const NotFound = () => import('../views/NotFoundView')
+const User = () => import('../views/UserView')
 
 const routes = [
   {
@@ -31,6 +32,12 @@ const routes = [
         path: 'admin',
         name: 'admin',
         component:Admin
+      },
+      {
+        //path: 'user/:id', // URL 传参
+        path: 'user',
+        name: 'user',
+        component: User
       }
     ]
   },
