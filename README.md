@@ -48,6 +48,7 @@ filters  : 过滤器 差值表达式中使用 {{}}
 vuecli
 vue-router
 子路由模式
+
 传参:
 * url 传参
 * name - params
@@ -55,5 +56,20 @@ vue-router
 * path - query
 * js 传参
 传参过程中，path 不可以和 params 配对使用
+
+vuex 
+
+储存数据状态 状态管理
+* state ：数据
+* mutations : 方法
+* actions : 异步，actions触发commit
+* getters : 对 state 的数据做预处理
+* modules : 把 store 里的数据分模块访问
+
+modules 命名空间 namespaced = true
+mapState
+mapGetters
+mapActions
+mapMutations
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
